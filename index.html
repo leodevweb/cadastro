@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!--Carrega o css da pasta css-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Sistema</title>
+  </head>
+  <body class="bg-light">
+<!--Container-->
+      <div class="container">
+          <div class="row my-5 justify-content-center">
+              <div class="col-sm-3 p-4 bg-danger text-center rounded">
+                  <h1>Login</h1>
+                  <form method="POST" action="src/processalogin.php">
+                      <div class="form-group p-2 m-0">
+                        <input class="form-control mb-1 " type="mail" placeholder="E-mail" name="email">
+                        <input class="form-control" type="password" placeholder="Senha" name="senha"> 
+                     </div>
+                     <div class="form-group p-2 border-bottom">
+                        <button type="submit" class="btn btn-light">Entrar</button>
+                     </div>
+                  </form>
+                  <p>Ainda não tem conta?</p>
+                  <a href="cadastro.html">Cadastre-se</a>
+              </div>
+            </div>
+      </div>
+
+
+
+
+
+
+
+    </div>
+<!--Container-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
